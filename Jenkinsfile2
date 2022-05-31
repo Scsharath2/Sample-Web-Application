@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-@Library("jenkins-Shared-libraries") _ //master or whatever branch
+@Library("shared-library") _ //master or whatever branch, "shared-library" , this name is configured in Manage jenkins
 
 pipeline{
 
